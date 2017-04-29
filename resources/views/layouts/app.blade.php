@@ -5,6 +5,7 @@
         <title>タスク管理アプリ</title>
     </head>
     <body>
+        @include('commons.error_tasks')
         @yield('content')
     </body>
 </html>

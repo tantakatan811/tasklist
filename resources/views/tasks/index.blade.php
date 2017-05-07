@@ -25,7 +25,3 @@
 
     {!! link_to_route('tasks.create','post NEW TASK!!',null,['class' => 'btn btn-primary']) !!}
 @endsection
-
-
-
-確認用のコメントです。

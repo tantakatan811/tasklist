@@ -1,6 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="center jumbotron">
+    <div class="text-center">
+        <h1>Welcome to the TASKLIST!!</h1>
+        {!! link_to_route('signup.get','会員登録がお済みでない方はこちら',null,['class'=>'btn btn-lg btn-primary']) !!}
+    </div>
+</div>
+
+
+
+
+
     <h1>タスク一覧</h1>
     @if (count($tasks)>0)
         <table class="table table-striped">
